@@ -10,7 +10,7 @@ namespace WebApplication1.Controllers
 
         [HttpGet("MyName",Name ="koko")]
         public string GetMyName()
-        {
+        { 
             return "My Name is bilal al jadoua";
         }
         [HttpGet("YourName",Name ="YourName")]
